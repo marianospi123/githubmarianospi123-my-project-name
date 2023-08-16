@@ -1,0 +1,51 @@
+
+
+body{
+    background-color: rgb(235, 235, 235);
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    padding: 10px;
+
+}
+
+header h1{
+    margin: 0;
+    
+}
+div.foto{
+    background-color:white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 10px;
+    
+}
+div.foto img{
+    width: 100%;
+}
+div.foto .foto-header div:first-child{
+    display: inline-block;
+    width: 80%;
+    
+} 
+div.foto .foto-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+    
+}
+div.foto h2,div.foto p{
+    padding: 10px;
+    margin: 0;
+}
+div.contenedor{
+    width: 600px;
+    margin: auto;
+}
